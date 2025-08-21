@@ -6,8 +6,10 @@ use reth_network::cache::LruMap;
 use std::{
     path::PathBuf,
     sync::{Arc, RwLock},
+    time::Duration
 };
 use tracing::info;
+use tokio::time::sleep;
 
 mod hl_node;
 pub use hl_node::HlNodeBlockSource;
@@ -83,18 +85,46 @@ impl BlockSource for S3BlockSource {
     fn collect_block(&self, height: u64) -> BoxFuture<eyre::Result<BlockAndReceipts>> {
         let client = self.client.clone();
         let bucket = self.bucket.clone();
+
         async move {
             let path = rmp_path(height);
-            let request = client
-                .get_object()
-                .request_payer(RequestPayer::Requester)
-                .bucket(&bucket)
-                .key(path);
-            let response = request.send().await?;
-            let bytes = response.body.collect().await?.into_bytes();
-            let mut decoder = lz4_flex::frame::FrameDecoder::new(&bytes[..]);
-            let blocks: Vec<BlockAndReceipts> = rmp_serde::from_read(&mut decoder)?;
-            Ok(blocks[0].clone())
+            let mut attempt: u32 = 0;
+            const BASE_MS: u64 = 200;
+            const MAX_BACKOFF: Duration = Duration::from_secs(30);
+
+            loop {
+                let req = client
+                    .get_object()
+                    .request_payer(RequestPayer::Requester)
+                    .bucket(&bucket)
+                    .key(&path);
+
+                match req.send().await {
+                    Ok(response) => {
+                        let bytes = response.body.collect().await?.into_bytes();
+                        let mut decoder = lz4_flex::frame::FrameDecoder::new(&bytes[..]);
+                        let blocks: Vec<BlockAndReceipts> = rmp_serde::from_read(&mut decoder)?;
+                        return Ok(blocks[0].clone())
+                    }
+                    Err(e) => {
+                        if let Some(se) = e.as_service_error() {
+                            // NoSuchKey -> don't retry
+                            if se.is_no_such_key() {
+                                return Err(eyre::eyre!(e));
+                            }
+                        }
+                        // Retry all other errors
+                        attempt += 1;
+                        let exp = (1u64 << (attempt - 1).min(16)) * BASE_MS;
+                        let backoff = Duration::from_millis(exp).min(MAX_BACKOFF);
+                        eprintln!(
+                            "get_object {}/{} failed (attempt {}): {:?}, retrying in {:?}",
+                            bucket, path, attempt, e, backoff
+                        );
+                        sleep(backoff).await;
+                    }
+                }
+            }
         }
         .boxed()
     }

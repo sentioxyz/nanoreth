@@ -6,6 +6,8 @@ use super::{
 };
 use aws_config::BehaviorVersion;
 use std::{env::home_dir, path::PathBuf, sync::Arc};
+use aws_config::timeout::TimeoutConfig;
+use std::time::Duration;
 
 #[derive(Debug, Clone)]
 pub struct BlockSourceConfig {
@@ -59,6 +61,11 @@ impl BlockSourceConfig {
                 let client = aws_sdk_s3::Client::new(
                     &aws_config::defaults(BehaviorVersion::latest())
                         .region("ap-northeast-1")
+                        .timeout_config(TimeoutConfig::builder()
+                            .operation_attempt_timeout(Duration::from_secs(30))
+                            .operation_timeout(Duration::from_secs(120))        // total request max
+                            .build(),
+                        )
                         .load()
                         .await,
                 );
