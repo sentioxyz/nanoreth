@@ -31,7 +31,7 @@ EF_TESTS_URL := https://github.com/ethereum/tests/archive/refs/tags/$(EF_TESTS_T
 EF_TESTS_DIR := ./testing/ef-tests/ethereum-tests
 
 # The docker image name
-DOCKER_IMAGE_NAME ?= ghcr.io/paradigmxyz/reth
+DOCKER_IMAGE_NAME ?= ghcr.io/hl-archive-node/nanoreth
 
 ##@ Help
 

@@ -16,5 +16,5 @@ jobs:
         with:
           token: ${{ secrets.HOMEBREW }}
           no_fork: true
-          tap: paradigmxyz/brew
+          tap: hl-archive-node/brew
           formula: reth

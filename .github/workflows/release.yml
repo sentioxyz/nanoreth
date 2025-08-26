@@ -9,12 +9,12 @@ on:
       - v*
 
 env:
-  REPO_NAME: ${{ github.repository_owner }}/reth
-  OP_IMAGE_NAME: ${{ github.repository_owner }}/op-reth
-  IMAGE_NAME: ${{ github.repository_owner }}/reth
+  REPO_NAME: ${{ github.repository_owner }}/nanoreth
+  OP_IMAGE_NAME: hl-archive-node/op-nanoreth
+  IMAGE_NAME: hl-archive-node/nanoreth
   CARGO_TERM_COLOR: always
-  DOCKER_IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/reth
-  DOCKER_REPRODUCIBLE_IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/reth-reproducible
+  DOCKER_IMAGE_NAME: ghcr.io/hl-archive-node/nanoreth
+  DOCKER_REPRODUCIBLE_IMAGE_NAME: ghcr.io/hl-archive-node/nanoreth-reproducible
 
 jobs:
   extract-version:
@@ -169,7 +169,7 @@ jobs:
         # https://github.com/openethereum/openethereum/blob/6c2d392d867b058ff867c4373e40850ca3f96969/.github/workflows/build.yml
         run: |
           body=$(cat <<- "ENDBODY"
-          ![image](https://raw.githubusercontent.com/paradigmxyz/reth/main/assets/reth-prod.png)
+          ![image](https://raw.githubusercontent.com/hl-archive-node/nanoreth/main/assets/reth-prod.png)
 
           ## Testing Checklist (DELETE ME)
 
@@ -202,7 +202,7 @@ jobs:
           | Payload Builders     | <TODO> |
           | Non-Payload Builders | <TODO>    |
 
-          *See [Update Priorities](https://paradigmxyz.github.io/reth/installation/priorities.html) for more information about this table.*
+          *See [Update Priorities](https://hl-archive-node.github.io/nanoreth/installation/priorities.html) for more information about this table.*
 
           ## All Changes
 
@@ -210,7 +210,7 @@ jobs:
 
           ## Binaries
 
-          [See pre-built binaries documentation.](https://paradigmxyz.github.io/reth/installation/binaries.html)
+          [See pre-built binaries documentation.](https://hl-archive-node.github.io/nanoreth/installation/binaries.html)
 
           The binaries are signed with the PGP key: `50FB 7CC5 5B2E 8AFA 59FE 03B7 AA5E D56A 7FBF 253E`
 
@@ -223,8 +223,8 @@ jobs:
           | <img src="https://simpleicons.org/icons/apple.svg" style="width: 32px;"/> | aarch64 | [reth-${{ env.VERSION }}-aarch64-apple-darwin.tar.gz](https://github.com/${{ env.REPO_NAME }}/releases/download/${{ env.VERSION }}/reth-${{ env.VERSION }}-aarch64-apple-darwin.tar.gz) | [PGP Signature](https://github.com/${{ env.REPO_NAME }}/releases/download/${{ env.VERSION }}/reth-${{ env.VERSION }}-aarch64-apple-darwin.tar.gz.asc) |
           | | | | |
           | **System** | **Option** | - | **Resource** |
-          | <img src="https://simpleicons.org/icons/docker.svg" style="width: 32px;"/> | Docker | | [${{ env.IMAGE_NAME }}](https://github.com/paradigmxyz/reth/pkgs/container/reth) |
-          | <img src="https://simpleicons.org/icons/docker.svg" style="width: 32px;"/> | Docker (Reproducible) | | [${{ env.IMAGE_NAME }}-reproducible](https://github.com/paradigmxyz/reth/pkgs/container/reth-reproducible) |
+          | <img src="https://simpleicons.org/icons/docker.svg" style="width: 32px;"/> | Docker | | [${{ env.IMAGE_NAME }}](https://github.com/hl-archive-node/nanoreth/pkgs/container/nanoreth) |
+          | <img src="https://simpleicons.org/icons/docker.svg" style="width: 32px;"/> | Docker (Reproducible) | | [${{ env.IMAGE_NAME }}-reproducible](https://github.com/hl-archive-node/nanoreth/pkgs/container/nanoreth-reproducible) |
           ENDBODY
           )
           assets=()

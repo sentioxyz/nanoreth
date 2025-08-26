@@ -19,11 +19,11 @@ jobs:
   prepare-reth:
     uses: ./.github/workflows/prepare-reth.yml
     with:
-      image_tag: ghcr.io/paradigmxyz/reth:latest
+      image_tag: ghcr.io/hl-archive-node/nanoreth:latest
       binary_name: reth
 
   prepare-hive:
-    if: github.repository == 'paradigmxyz/reth'
+    if: github.repository == 'sentioxyz/nanoreth'
     timeout-minutes: 45
     runs-on:
       group: Reth
@@ -226,5 +226,5 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_COLOR: ${{ job.status }}
-          SLACK_MESSAGE: "Failed run: https://github.com/paradigmxyz/reth/actions/runs/${{ github.run_id }}"
+          SLACK_MESSAGE: "Failed run: https://github.com/sentioxyz/nanoreth/actions/runs/${{ github.run_id }}"
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
