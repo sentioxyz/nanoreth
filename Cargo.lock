@@ -113,8 +113,7 @@ dependencies = [
 [[package]]
 name = "alloy-consensus"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59094911f05dbff1cf5b29046a00ef26452eccc8d47136d50a47c0cf22f00c85"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -140,8 +139,7 @@ dependencies = [
 [[package]]
 name = "alloy-consensus-any"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "903cb8f728107ca27c816546f15be38c688df3c381d7bd1a4a9f215effc1ddb4"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -216,8 +214,7 @@ dependencies = [
 [[package]]
 name = "alloy-eips"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac7f1c9a1ccc7f3e03c36976455751a6166a4f0d2d2c530c3f87dfe7d0cdc836"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-eip2124",
  "alloy-eip2930",
@@ -263,8 +260,7 @@ dependencies = [
 [[package]]
 name = "alloy-genesis"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1421f6c9d15e5b86afbfe5865ca84dea3b9f77173a0963c1a2ee4e626320ada9"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -303,8 +299,7 @@ dependencies = [
 [[package]]
 name = "alloy-json-rpc"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "65f763621707fa09cece30b73ecc607eb43fd7a72451fe3b46f645b905086926"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "alloy-sol-types",
@@ -318,8 +313,7 @@ dependencies = [
 [[package]]
 name = "alloy-network"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2f59a869fa4b4c3a7f08b1c8cb79aec61c29febe6e24a24fe0fcfded8a9b5703"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-consensus-any",
@@ -344,8 +338,7 @@ dependencies = [
 [[package]]
 name = "alloy-network-primitives"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "46e9374c667c95c41177602ebe6f6a2edd455193844f011d973d374b65501b38"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -387,8 +380,7 @@ dependencies = [
 [[package]]
 name = "alloy-provider"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77818b7348bd5486491a5297579dbfe5f706a81f8e1f5976393025f1e22a7c7d"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-chains",
  "alloy-consensus",
@@ -429,8 +421,7 @@ dependencies = [
 [[package]]
 name = "alloy-pubsub"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "249b45103a66c9ad60ad8176b076106d03a2399a37f0ee7b0e03692e6b354cb9"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-json-rpc",
  "alloy-primitives",
@@ -473,8 +464,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-client"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2430d5623e428dd012c6c2156ae40b7fe638d6fca255e3244e0fba51fa698e93"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-json-rpc",
  "alloy-primitives",
@@ -499,8 +489,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9e131624d08a25cfc40557041e7dc42e1182fa1153e7592d120f769a1edce56"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "alloy-rpc-types-engine",
@@ -512,8 +501,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-admin"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c59407723b1850ebaa49e46d10c2ba9c10c10b3aedf2f7e97015ee23c3f4e639"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-genesis",
  "alloy-primitives",
@@ -524,8 +512,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-anvil"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d65e3266095e6d8e8028aab5f439c6b8736c5147314f7e606c61597e014cb8a0"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "alloy-rpc-types-eth",
@@ -536,8 +523,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-any"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "07429a1099cd17227abcddb91b5e38c960aaeb02a6967467f5bb561fbe716ac6"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus-any",
  "alloy-rpc-types-eth",
@@ -547,8 +533,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-beacon"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59e0e876b20eb9debf316d3e875536f389070635250f22b5a678cf4632a3e0cf"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -566,8 +551,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-debug"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aeff305b7d10cc1c888456d023e7bb8a5ea82e9e42b951e37619b88cc1a1486d"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "derive_more",
@@ -578,8 +562,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-engine"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "222ecadcea6aac65e75e32b6735635ee98517aa63b111849ee01ae988a71d685"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -598,8 +581,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-eth"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "db46b0901ee16bbb68d986003c66dcb74a12f9d9b3c44f8e85d51974f2458f0f"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-consensus-any",
@@ -610,7 +592,7 @@ dependencies = [
  "alloy-serde",
  "alloy-sol-types",
  "arbitrary",
- "itertools 0.14.0",
+ "itertools 0.13.0",
  "serde",
  "serde_json",
  "serde_with",
@@ -620,8 +602,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-mev"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "791a60d4baadd3f278faa4e2305cca095dfd4ab286e071b768ff09181d8ae215"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -635,22 +616,21 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types-trace"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "36f10620724bd45f80c79668a8cdbacb6974f860686998abce28f6196ae79444"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "alloy-rpc-types-eth",
  "alloy-serde",
  "serde",
  "serde_json",
+ "serde_with",
  "thiserror 2.0.16",
 ]
 
 [[package]]
 name = "alloy-rpc-types-txpool"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "864f41befa90102d4e02327679699a7e9510930e2924c529e31476086609fa89"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "alloy-rpc-types-eth",
@@ -661,8 +641,7 @@ dependencies = [
 [[package]]
 name = "alloy-serde"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5413814be7a22fbc81e0f04a2401fcc3eb25e56fd53b04683e8acecc6e1fe01b"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "arbitrary",
@@ -673,8 +652,7 @@ dependencies = [
 [[package]]
 name = "alloy-signer"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "53410a18a61916e2c073a6519499514e027b01e77eeaf96acd1df7cf96ef6bb2"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "async-trait",
@@ -688,8 +666,7 @@ dependencies = [
 [[package]]
 name = "alloy-signer-local"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e6006c4cbfa5d08cadec1fcabea6cb56dc585a30a9fce40bcf81e307d6a71c8e"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-consensus",
  "alloy-network",
@@ -774,8 +751,7 @@ dependencies = [
 [[package]]
 name = "alloy-transport"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d94ee404368a3d9910dfe61b203e888c6b0e151a50e147f95da8baff9f9c7763"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-json-rpc",
  "alloy-primitives",
@@ -798,8 +774,7 @@ dependencies = [
 [[package]]
 name = "alloy-transport-http"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2f8a6338d594f6c6481292215ee8f2fd7b986c80aba23f3f44e761a8658de78"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-json-rpc",
  "alloy-transport",
@@ -813,8 +788,7 @@ dependencies = [
 [[package]]
 name = "alloy-transport-ipc"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17a37a8ca18006fa0a58c7489645619ff58cfa073f2b29c4e052c9bd114b123a"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-json-rpc",
  "alloy-pubsub",
@@ -833,8 +807,7 @@ dependencies = [
 [[package]]
 name = "alloy-transport-ws"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "679b0122b7bca9d4dc5eb2c0549677a3c53153f6e232f23f4b3ba5575f74ebde"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-pubsub",
  "alloy-transport",
@@ -871,8 +844,7 @@ dependencies = [
 [[package]]
 name = "alloy-tx-macros"
 version = "1.0.37"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e64c09ec565a90ed8390d82aa08cd3b22e492321b96cb4a3d4f58414683c9e2f"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
 dependencies = [
  "alloy-primitives",
  "darling 0.21.3",
@@ -6744,7 +6716,7 @@ checksum = "95325155c684b1c89f7765e30bc1c42e4a6da51ca513615660cb8a62ef9a88e3"
 [[package]]
 name = "reth"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-rpc-types",
  "aquamarine",
@@ -6790,7 +6762,7 @@ dependencies = [
 [[package]]
 name = "reth-basic-payload-builder"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -6814,7 +6786,7 @@ dependencies = [
 [[package]]
 name = "reth-chain-state"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -6845,7 +6817,7 @@ dependencies = [
 [[package]]
 name = "reth-chainspec"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-chains",
  "alloy-consensus",
@@ -6865,7 +6837,7 @@ dependencies = [
 [[package]]
 name = "reth-cli"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-genesis",
  "clap",
@@ -6879,7 +6851,7 @@ dependencies = [
 [[package]]
 name = "reth-cli-commands"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-chains",
  "alloy-consensus",
@@ -6960,7 +6932,7 @@ dependencies = [
 [[package]]
 name = "reth-cli-runner"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "reth-tasks",
  "tokio",
@@ -6970,7 +6942,7 @@ dependencies = [
 [[package]]
 name = "reth-cli-util"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -6988,7 +6960,7 @@ dependencies = [
 [[package]]
 name = "reth-codecs"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7008,7 +6980,7 @@ dependencies = [
 [[package]]
 name = "reth-codecs-derive"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "convert_case",
  "proc-macro2",
@@ -7019,7 +6991,7 @@ dependencies = [
 [[package]]
 name = "reth-config"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "eyre",
  "humantime-serde",
@@ -7034,7 +7006,7 @@ dependencies = [
 [[package]]
 name = "reth-consensus"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -7047,7 +7019,7 @@ dependencies = [
 [[package]]
 name = "reth-consensus-common"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7059,7 +7031,7 @@ dependencies = [
 [[package]]
 name = "reth-consensus-debug-client"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7085,7 +7057,7 @@ dependencies = [
 [[package]]
 name = "reth-db"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "derive_more",
@@ -7111,7 +7083,7 @@ dependencies = [
 [[package]]
 name = "reth-db-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-genesis",
@@ -7139,7 +7111,7 @@ dependencies = [
 [[package]]
 name = "reth-db-common"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-genesis",
@@ -7169,7 +7141,7 @@ dependencies = [
 [[package]]
 name = "reth-db-models"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -7184,7 +7156,7 @@ dependencies = [
 [[package]]
 name = "reth-discv4"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -7210,7 +7182,7 @@ dependencies = [
 [[package]]
 name = "reth-discv5"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -7234,7 +7206,7 @@ dependencies = [
 [[package]]
 name = "reth-dns-discovery"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "data-encoding",
@@ -7258,7 +7230,7 @@ dependencies = [
 [[package]]
 name = "reth-downloaders"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7288,7 +7260,7 @@ dependencies = [
 [[package]]
 name = "reth-ecies"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "aes",
  "alloy-primitives",
@@ -7319,7 +7291,7 @@ dependencies = [
 [[package]]
 name = "reth-engine-local"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -7341,7 +7313,7 @@ dependencies = [
 [[package]]
 name = "reth-engine-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7366,7 +7338,7 @@ dependencies = [
 [[package]]
 name = "reth-engine-service"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "futures",
  "pin-project",
@@ -7389,7 +7361,7 @@ dependencies = [
 [[package]]
 name = "reth-engine-tree"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7438,7 +7410,7 @@ dependencies = [
 [[package]]
 name = "reth-engine-util"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-rpc-types-engine",
@@ -7466,7 +7438,7 @@ dependencies = [
 [[package]]
 name = "reth-era"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7482,7 +7454,7 @@ dependencies = [
 [[package]]
 name = "reth-era-downloader"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "bytes",
@@ -7497,7 +7469,7 @@ dependencies = [
 [[package]]
 name = "reth-era-utils"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -7519,7 +7491,7 @@ dependencies = [
 [[package]]
 name = "reth-errors"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "reth-consensus",
  "reth-execution-errors",
@@ -7530,7 +7502,7 @@ dependencies = [
 [[package]]
 name = "reth-eth-wire"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-chains",
  "alloy-primitives",
@@ -7559,7 +7531,7 @@ dependencies = [
 [[package]]
 name = "reth-eth-wire-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-chains",
  "alloy-consensus",
@@ -7583,7 +7555,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-cli"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "clap",
  "eyre",
@@ -7605,7 +7577,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-consensus"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7621,7 +7593,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-engine-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -7639,7 +7611,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-forks"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eip2124",
  "alloy-hardforks",
@@ -7653,7 +7625,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-payload-builder"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7682,7 +7654,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7702,7 +7674,7 @@ dependencies = [
 [[package]]
 name = "reth-etl"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "rayon",
  "reth-db-api",
@@ -7712,7 +7684,7 @@ dependencies = [
 [[package]]
 name = "reth-evm"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7735,7 +7707,7 @@ dependencies = [
 [[package]]
 name = "reth-evm-ethereum"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7756,7 +7728,7 @@ dependencies = [
 [[package]]
 name = "reth-execution-errors"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-evm",
  "alloy-primitives",
@@ -7769,7 +7741,7 @@ dependencies = [
 [[package]]
 name = "reth-execution-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7787,7 +7759,7 @@ dependencies = [
 [[package]]
 name = "reth-exex"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -7825,7 +7797,7 @@ dependencies = [
 [[package]]
 name = "reth-exex-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -7839,7 +7811,7 @@ dependencies = [
 [[package]]
 name = "reth-fs-util"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "serde",
  "serde_json",
@@ -7849,7 +7821,7 @@ dependencies = [
 [[package]]
 name = "reth-invalid-block-hooks"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -7876,7 +7848,7 @@ dependencies = [
 [[package]]
 name = "reth-ipc"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "bytes",
  "futures",
@@ -7896,7 +7868,7 @@ dependencies = [
 [[package]]
 name = "reth-libmdbx"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "bitflags 2.9.2",
  "byteorder",
@@ -7912,7 +7884,7 @@ dependencies = [
 [[package]]
 name = "reth-mdbx-sys"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "bindgen 0.71.1",
  "cc",
@@ -7921,7 +7893,7 @@ dependencies = [
 [[package]]
 name = "reth-metrics"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "futures",
  "metrics",
@@ -7933,7 +7905,7 @@ dependencies = [
 [[package]]
 name = "reth-net-banlist"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
 ]
@@ -7941,7 +7913,7 @@ dependencies = [
 [[package]]
 name = "reth-net-nat"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "futures-util",
  "if-addrs",
@@ -7955,7 +7927,7 @@ dependencies = [
 [[package]]
 name = "reth-network"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8010,7 +7982,7 @@ dependencies = [
 [[package]]
 name = "reth-network-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -8035,7 +8007,7 @@ dependencies = [
 [[package]]
 name = "reth-network-p2p"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8057,7 +8029,7 @@ dependencies = [
 [[package]]
 name = "reth-network-peers"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -8072,7 +8044,7 @@ dependencies = [
 [[package]]
 name = "reth-network-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eip2124",
  "humantime-serde",
@@ -8086,7 +8058,7 @@ dependencies = [
 [[package]]
 name = "reth-nippy-jar"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "anyhow",
  "bincode",
@@ -8103,7 +8075,7 @@ dependencies = [
 [[package]]
 name = "reth-node-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-rpc-types-engine",
  "eyre",
@@ -8127,7 +8099,7 @@ dependencies = [
 [[package]]
 name = "reth-node-builder"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8195,7 +8167,7 @@ dependencies = [
 [[package]]
 name = "reth-node-core"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8247,7 +8219,7 @@ dependencies = [
 [[package]]
 name = "reth-node-ethereum"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-network",
@@ -8285,7 +8257,7 @@ dependencies = [
 [[package]]
 name = "reth-node-ethstats"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -8309,7 +8281,7 @@ dependencies = [
 [[package]]
 name = "reth-node-events"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8333,7 +8305,7 @@ dependencies = [
 [[package]]
 name = "reth-node-metrics"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "eyre",
  "http 1.3.1",
@@ -8354,7 +8326,7 @@ dependencies = [
 [[package]]
 name = "reth-node-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "reth-chainspec",
  "reth-db-api",
@@ -8366,7 +8338,7 @@ dependencies = [
 [[package]]
 name = "reth-optimism-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8385,7 +8357,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-builder"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -8406,7 +8378,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-builder-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "pin-project",
  "reth-payload-primitives",
@@ -8418,7 +8390,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -8438,7 +8410,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-validator"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-rpc-types-engine",
@@ -8448,7 +8420,7 @@ dependencies = [
 [[package]]
 name = "reth-primitives"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "c-kzg",
@@ -8462,7 +8434,7 @@ dependencies = [
 [[package]]
 name = "reth-primitives-traits"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8495,7 +8467,7 @@ dependencies = [
 [[package]]
 name = "reth-provider"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8540,7 +8512,7 @@ dependencies = [
 [[package]]
 name = "reth-prune"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8568,7 +8540,7 @@ dependencies = [
 [[package]]
 name = "reth-prune-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "arbitrary",
@@ -8582,7 +8554,7 @@ dependencies = [
 [[package]]
 name = "reth-ress-protocol"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -8601,7 +8573,7 @@ dependencies = [
 [[package]]
 name = "reth-ress-provider"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -8628,7 +8600,7 @@ dependencies = [
 [[package]]
 name = "reth-revm"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "reth-primitives-traits",
@@ -8641,7 +8613,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-dyn-abi",
@@ -8720,7 +8692,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-genesis",
@@ -8748,7 +8720,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-builder"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-network",
  "alloy-provider",
@@ -8787,7 +8759,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-convert"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-json-rpc",
@@ -8808,7 +8780,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-engine-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -8838,7 +8810,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-eth-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-dyn-abi",
@@ -8882,7 +8854,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-eth-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -8929,7 +8901,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-layer"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-rpc-types-engine",
  "http 1.3.1",
@@ -8943,7 +8915,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-server-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -8959,7 +8931,7 @@ dependencies = [
 [[package]]
 name = "reth-stages"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -9003,7 +8975,7 @@ dependencies = [
 [[package]]
 name = "reth-stages-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -9030,7 +9002,7 @@ dependencies = [
 [[package]]
 name = "reth-stages-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "arbitrary",
@@ -9044,7 +9016,7 @@ dependencies = [
 [[package]]
 name = "reth-static-file"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "parking_lot",
@@ -9064,7 +9036,7 @@ dependencies = [
 [[package]]
 name = "reth-static-file-types"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "clap",
@@ -9076,7 +9048,7 @@ dependencies = [
 [[package]]
 name = "reth-storage-api"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -9099,7 +9071,7 @@ dependencies = [
 [[package]]
 name = "reth-storage-errors"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
@@ -9115,7 +9087,7 @@ dependencies = [
 [[package]]
 name = "reth-tasks"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "auto_impl",
  "dyn-clone",
@@ -9133,7 +9105,7 @@ dependencies = [
 [[package]]
 name = "reth-tokio-util"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "tokio",
  "tokio-stream",
@@ -9143,7 +9115,7 @@ dependencies = [
 [[package]]
 name = "reth-tracing"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "clap",
  "eyre",
@@ -9158,7 +9130,7 @@ dependencies = [
 [[package]]
 name = "reth-transaction-pool"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -9198,7 +9170,7 @@ dependencies = [
 [[package]]
 name = "reth-trie"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",
@@ -9223,7 +9195,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-common"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives",
@@ -9249,7 +9221,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-db"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "reth-db-api",
@@ -9262,7 +9234,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-parallel"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -9287,7 +9259,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-sparse"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -9306,7 +9278,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-sparse-parallel"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -9324,7 +9296,7 @@ dependencies = [
 [[package]]
 name = "reth-zstd-compressors"
 version = "1.8.2"
-source = "git+https://github.com/hl-archive-node/reth?rev=416c2e26756f1c8ee86e6b8e4081f434952b3a1a#416c2e26756f1c8ee86e6b8e4081f434952b3a1a"
+source = "git+https://github.com/sentioxyz/reth?branch=release%2Fv1.8.2-hyper#a91b943a60fd84686c8d2142dca4bf2cee6f4f53"
 dependencies = [
  "zstd",
 ]
@@ -9439,8 +9411,7 @@ dependencies = [
 [[package]]
 name = "revm"
 version = "29.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "718d90dce5f07e115d0e66450b1b8aa29694c1cf3f89ebddaddccc2ccbd2f13e"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "revm-bytecode",
  "revm-context",
@@ -9458,8 +9429,7 @@ dependencies = [
 [[package]]
 name = "revm-bytecode"
 version = "6.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "66c52031b73cae95d84cd1b07725808b5fd1500da3e5e24574a3b2dc13d9f16d"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "bitvec",
  "phf",
@@ -9470,9 +9440,9 @@ dependencies = [
 [[package]]
 name = "revm-context"
 version = "9.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a20c98e7008591a6f012550c2a00aa36cba8c14cc88eb88dec32eb9102554b4"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
+ "alloy-rpc-types-trace",
  "bitvec",
  "cfg-if",
  "derive-where",
@@ -9487,11 +9457,11 @@ dependencies = [
 [[package]]
 name = "revm-context-interface"
 version = "10.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b50d241ed1ce647b94caf174fcd0239b7651318b2c4c06b825b59b973dfb8495"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "alloy-eip2930",
  "alloy-eip7702",
+ "alloy-rpc-types-trace",
  "auto_impl",
  "either",
  "revm-database-interface",
@@ -9503,8 +9473,7 @@ dependencies = [
 [[package]]
 name = "revm-database"
 version = "7.0.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "39a276ed142b4718dcf64bc9624f474373ed82ef20611025045c3fb23edbef9c"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "alloy-eips",
  "revm-bytecode",
@@ -9517,8 +9486,7 @@ dependencies = [
 [[package]]
 name = "revm-database-interface"
 version = "7.0.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c523c77e74eeedbac5d6f7c092e3851dbe9c7fec6f418b85992bd79229db361"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "auto_impl",
  "either",
@@ -9530,11 +9498,12 @@ dependencies = [
 [[package]]
 name = "revm-handler"
 version = "10.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "550331ea85c1d257686e672081576172fe3d5a10526248b663bbf54f1bef226a"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
+ "alloy-rpc-types-trace",
  "auto_impl",
  "derive-where",
+ "log",
  "revm-bytecode",
  "revm-context",
  "revm-context-interface",
@@ -9549,8 +9518,7 @@ dependencies = [
 [[package]]
 name = "revm-inspector"
 version = "10.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7c0a6e9ccc2ae006f5bed8bd80cd6f8d3832cd55c5e861b9402fdd556098512f"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "auto_impl",
  "either",
@@ -9567,8 +9535,7 @@ dependencies = [
 [[package]]
 name = "revm-inspectors"
 version = "0.30.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e9b329afcc0f9fd5adfa2c6349a7435a8558e82bcae203142103a9a95e2a63b6"
+source = "git+https://github.com/sentioxyz/revm-inspectors?branch=release%2Fv0.30.0#2a81ff49e81295c22f64ca832df1796f68d9427c"
 dependencies = [
  "alloy-primitives",
  "alloy-rpc-types-eth",
@@ -9578,6 +9545,7 @@ dependencies = [
  "boa_engine",
  "boa_gc",
  "colorchoice",
+ "lazy_static",
  "revm",
  "serde",
  "serde_json",
@@ -9587,9 +9555,10 @@ dependencies = [
 [[package]]
 name = "revm-interpreter"
 version = "25.0.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "06575dc51b1d8f5091daa12a435733a90b4a132dca7ccee0666c7db3851bc30c"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
+ "alloy-rpc-types-trace",
+ "log",
  "revm-bytecode",
  "revm-context-interface",
  "revm-primitives",
@@ -9599,8 +9568,7 @@ dependencies = [
 [[package]]
 name = "revm-precompile"
 version = "27.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25b57d4bd9e6b5fe469da5452a8a137bc2d030a3cd47c46908efc615bbc699da"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "ark-bls12-381",
  "ark-bn254",
@@ -9625,8 +9593,7 @@ dependencies = [
 [[package]]
 name = "revm-primitives"
 version = "20.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5aa29d9da06fe03b249b6419b33968ecdf92ad6428e2f012dc57bcd619b5d94e"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "alloy-primitives",
  "num_enum",
@@ -9637,8 +9604,7 @@ dependencies = [
 [[package]]
 name = "revm-state"
 version = "7.0.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1f64fbacb86008394aaebd3454f9643b7d5a782bd251135e17c5b33da592d84d"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
 dependencies = [
  "bitflags 2.9.2",
  "revm-bytecode",
@@ -12678,3 +12644,18 @@ dependencies = [
  "cc",
  "pkg-config",
 ]
+
+[[patch.unused]]
+name = "alloy-contract"
+version = "1.0.37"
+source = "git+https://github.com/sentioxyz/alloy?branch=release%2Fv1.0.37#a83848bbe316bdaa024d90067a7baed044cbb7db"
+
+[[patch.unused]]
+name = "alloy-evm"
+version = "0.21.1"
+source = "git+https://github.com/sentioxyz/alloy-evm?branch=release%2Fv0.21.1#0c73d33adc654212c94344a0580158ec12b49acd"
+
+[[patch.unused]]
+name = "op-revm"
+version = "10.1.0"
+source = "git+https://github.com/sentioxyz/revm?branch=release%2Fv87#cead0a75e46947bb0503a39bd0f08bba497b7a73"
