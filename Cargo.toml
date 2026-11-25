@@ -26,51 +26,51 @@ lto = "fat"
 codegen-units = 1
 
 [dependencies]
-reth = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b", default-features = false, features = ["gmp", "jemalloc", "js-tracer"] }
-reth-cli = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-cli-commands = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-basic-payload-builder = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-db = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-db-api = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-chainspec = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-cli-util = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-discv4 = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-engine-primitives = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-ethereum-forks = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-ethereum-payload-builder = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-ethereum-primitives = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-eth-wire = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-eth-wire-types = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-evm = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-evm-ethereum = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-node-core = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-revm = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b", features = ["portable"] }
-reth-network = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-network-p2p = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-network-api = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-node-ethereum = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-network-peers = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-payload-primitives = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
+reth = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper", default-features = false, features = ["gmp", "jemalloc", "js-tracer"] }
+reth-cli = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-cli-commands = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-basic-payload-builder = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-db = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-db-api = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-chainspec = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-cli-util = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-discv4 = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-engine-primitives = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-ethereum-forks = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-ethereum-payload-builder = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-ethereum-primitives = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-eth-wire = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-eth-wire-types = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-evm = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-evm-ethereum = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-node-core = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-revm = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper", features = ["portable"] }
+reth-network = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-network-p2p = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-network-api = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-node-ethereum = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-network-peers = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-payload-primitives = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
 reth-primitives-traits = { version = "0.8.2", default-features = false }
-reth-provider = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b", features = ["test-utils"] }
-reth-rpc = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-eth-api = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-engine-api = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-tracing = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-trie-common = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-trie-db = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
+reth-provider = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper", features = ["test-utils"] }
+reth-rpc = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-eth-api = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-engine-api = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-tracing = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-trie-common = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-trie-db = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
 reth-codecs = { version = "0.8.2", default-features = false }
-reth-transaction-pool = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-stages-types = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-storage-api = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-errors = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-convert = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-eth-types = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-server-types = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-metrics = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-builder = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-ipc = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
-reth-rpc-layer = { git = "https://github.com/hl-archive-node/reth", rev = "c6e0a06b6f2739b63ccd625823d17d333bfdc31b" }
+reth-transaction-pool = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-stages-types = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-storage-api = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-errors = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-convert = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-eth-types = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-server-types = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-metrics = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-builder = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-ipc = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
+reth-rpc-layer = { git = "https://github.com/sentioxyz/reth", branch = "release/v2.8.1-hyper" }
 # `memory_limit` makes revm enforce `CfgEnv::memory_limit` (default 4 GiB - 1, set for RPC calls
 # from `--rpc.evm-memory-limit`). Without it the limit is `u64::MAX`, and a call with enough gas can
 # grow memory until the size computation in a nested frame wraps. reth-rpc-eth-api enables it too;
@@ -189,3 +189,50 @@ tempfile = "3.20.0"
 [build-dependencies]
 vergen = { version = "10.0.1", features = ["build", "cargo", "emit_and_set"] }
 vergen-git2 = "10.0.1"
+
+[patch.crates-io]
+alloy-consensus = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-consensus-any = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-contract = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-eips = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-genesis = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-json-rpc = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-network = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-network-primitives = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-node-bindings = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-provider = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-pubsub = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-client = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-admin = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-anvil = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-any = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-beacon = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-debug = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-engine = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-eth = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-mev = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-trace = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-rpc-types-txpool = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-serde = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-signer = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-signer-local = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-transport = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-transport-http = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-transport-ipc = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-transport-ws = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+alloy-tx-macros = { git = "https://github.com/sentioxyz/alloy", branch = "release/v2.5.0" }
+revm-inspectors = { git = "https://github.com/sentioxyz/revm-inspectors", branch = "release/v0.44.3" }
+revm = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-bytecode = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-context = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-context-interface = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-database = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-database-interface = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-handler = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-inspector = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-interpreter = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-precompile = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-primitives = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+revm-state = { git = "https://github.com/sentioxyz/revm", branch = "release/v120" }
+alloy-evm = { git = "https://github.com/sentioxyz/alloy-evm", branch = "release/v0.39.0" }
